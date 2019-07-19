@@ -1,0 +1,13 @@
+[package]
+name = "core"
+version = "0.1.0"
+authors = ["Alex Tennant <alex@adtennant.co.uk>"]
+description = "A Gameboy emulator written in Rust."
+edition = "2018"
+
+[dependencies]
+bitflags = "*"
+bit_field = "*"
+
+[lib]
+crate-type = ["cdylib"]
